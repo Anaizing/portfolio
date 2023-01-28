@@ -1,9 +1,13 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+
+import github from "../../content/assets/github.png";
+import codepen from "../../content/assets/codepen.png";
+import twitter from "../../content/assets/twitter.png";
 
 const Layout = props => {
-  const { title, children } = props
-  const [toggleNav, setToggleNav] = React.useState(false)
+  const { title, children } = props;
+  const [toggleNav, setToggleNav] = React.useState(false);
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
@@ -27,14 +31,14 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>Projects</Link>
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="site-head-center">
@@ -45,29 +49,53 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://twitter.com"
+                href="https://twitter.com/Anaizing"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                <img
+                  className=""
+                  src={twitter}
+                  alt="twitter logo"
+                  style={{ width: "30px" }}
+                />
               </a>
-              <Link
+              <a
+                href="https://codepen.io/Anaizing"
+                title="Codepen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={codepen}
+                  alt="codepen logo"
+                  style={{ width: "30px" }}
+                />
+              </a>
+              <a
+                href="https://github.com/Anaizing"
+                title="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={github}
+                  alt="github logo"
+                  style={{ width: "30px" }}
+                />
+              </a>
+
+              {/* <Link
                 to={`/rss.xml`}
                 title="RSS"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 RSS
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -89,7 +117,7 @@ const Layout = props => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
