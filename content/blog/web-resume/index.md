@@ -1,6 +1,6 @@
 ---
 title: web resume
-date: "2023-01-29"
+date: "2023-01-28"
 thumbnail: ./websitereferences.png
 description: Sometimes simplicity is all you need.
 ---
