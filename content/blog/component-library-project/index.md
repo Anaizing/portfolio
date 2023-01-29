@@ -5,7 +5,7 @@ thumbnail: ./componentlibrary.png
 description: A library of React components that incorporates Atomic design principles in composition.
 ---
 
-![Green](./webpagemock.gif)
+![web app desktop mockups with descriptions of tech used](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675011560/portfolio/webpagemock_jod3fz.gif)
 
 ### REACT COMPONENT LIBRARY
 
@@ -29,7 +29,10 @@ Developed using...
 <br>
 
 > scrollable desktop view of progress component
-> ![Green](./progresscomponent.png)
+> ![scrollable desktop view of progress component](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675011664/portfolio/progresscomponent_ydcabw.png)
+
+<br>
+<br>
 
 > scrollable desktop view of password component
-> ![Green](./passwordcomponent.png)
+> ![scrollable desktop view of password component](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675011718/portfolio/passwordcomponent_wuts4m.png)
