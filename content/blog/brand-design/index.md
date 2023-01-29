@@ -1,6 +1,6 @@
 ---
 title: brand design
-date: "2019-05-01"
+date: "2023-01-27"
 thumbnail: ./soggyLogo.png
 description:
 ---
