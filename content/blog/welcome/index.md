@@ -13,4 +13,4 @@ And now you might be able to find me in a crowd too!
 
 > my socials are on the top right... who knows maybe we'll collaborate sometime.
 
-![my face](./anai.jpg)
+![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675007417/portfolio/anai_gd04vx.jpg)
