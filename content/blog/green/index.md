@@ -1,14 +1,35 @@
 ---
-title: Green
-date: "2019-05-03"
-thumbnail: ./dose-juice-1184429-unsplash.jpg
-description: For in the true nature of things, if we rightly consider, every green tree is far more glorious than if it were made of gold and silver.
+title: component library
+date: "2023-01-29"
+thumbnail: ./componentlibrary.png
+description: A library of React components that incorporates Atomic design principles in composition.
 ---
 
-![Green](./chuttersnap-564286-unsplash.jpg)
+![Green](./webpagemock.gif)
 
-![Green](./jazmin-quaynor-105210-unsplash.jpg)
+### REACT COMPONENT LIBRARY
 
-![Green](./josh-silver-730329-unsplash.jpg)
+A library of React components that incorporates atomic design principles in composition. Built from scratch, complete with docs, testing, automated code highlighting generation on props for each component, with development environment and deployment environment builds.
 
-![Green](./roman-bozhko-251947-unsplash.jpg)
+Developed using...
+
+- javascript
+- html
+- css
+- react
+- babel
+- webpack
+- eslint
+- github
+
+[VIEW COMPONENT LIBRARY](https://anaizing.github.io/anaizing-components/)
+<br>
+[SEE THE CODE](https://github.com/Anaizing/anaizing-components)
+
+<br>
+
+> scrollable desktop view of progress component
+> ![Green](./progresscomponent.png)
+
+> scrollable desktop view of password component
+> ![Green](./passwordcomponent.png)
