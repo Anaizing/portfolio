@@ -1,6 +1,6 @@
 ---
 title: website
-date: "2023-01-29"
+date: "2023-01-30"
 thumbnail: ./landingpage.png
 description: This is a responsive, SPA, web development website complete with blog section, landing page, registration form and aesthetically pleasing UI/UX.
 ---
