@@ -1,6 +1,6 @@
 ---
 title: component library
-date: "2023-01-29"
+date: "2023-01-28"
 thumbnail: ./componentlibrary.png
 description: A library of React components that incorporates Atomic design principles in composition.
 ---
