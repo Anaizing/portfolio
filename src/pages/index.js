@@ -28,7 +28,7 @@ const BlogIndex = ({ data }, location) => {
           </h2>
         </header>
       )}
-      <div>webgl goes here</div>
+      <div>{/* todo: add webgl here */}</div>
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++;
