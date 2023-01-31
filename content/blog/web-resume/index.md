@@ -5,6 +5,8 @@ date: "2023-01-28"
 description: Sometimes simplicity is all you need.
 ---
 
+![website desktop view of professional endorsements](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675133672/portfolio/websitereferences_hxkd0o.png)
+
 ![website mockup in phone view](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675008930/portfolio/iphonemock_uu8src.gif)
 
 ### Website Resume

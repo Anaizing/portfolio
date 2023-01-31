@@ -5,7 +5,7 @@ thumbnail: ./landingpage.png
 description: This is a responsive, SPA, web development website complete with blog section, landing page, registration form and aesthetically pleasing UI/UX.
 ---
 
-![website's laptop mock up views and description of skills used](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675007606/portfolio/webpagelaptop_vc8tfc.png)
+![website's laptop mock up views and description of skills used](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675008023/portfolio/laptopmock_lu2g8d.gif)
 
 ### SOGGY INK GAMES PTY LTD website
 
@@ -45,4 +45,4 @@ Built and developed using...
 <br>
 <br>
 
-![Don't stop](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675008023/portfolio/laptopmock_lu2g8d.gif)
+![website's laptop mock up views and description of skills used](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675007606/portfolio/webpagelaptop_vc8tfc.png)
