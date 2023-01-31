@@ -14,7 +14,7 @@ const Layout = props => {
         <div className="site-head-container">
           <a
             className="nav-burger"
-            href="./"
+            href="#"
             aria-label="landing page"
             onClick={() => setToggleNav(!toggleNav)}
           >
