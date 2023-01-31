@@ -25,16 +25,16 @@ const AboutPage = ({ data }, location) => {
               fluid={data.glitchme.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
+            <figcaption>Photography by Anai Araya</figcaption>
           </figure>
           <h3 id="dynamic-styles">Anai Yusary Araya Rocha</h3>
           <p>
             That up there is my full long-ass name, I probably shouldnt mention
-            that this is the first time I've ever MADE the time, in the 5+ years
-            I've been building software, to build myself a portfolio that shows
-            off my sweet sweet skills. Im patting myelf on the back right now
-            because i started building this on saturday, its now monday morning
-            and we're nearly there!
+            that this is the first time, in the 5+ years I've been building
+            software, I've ever MADE the time to build myself a portfolio that
+            shows off my sweet sweet skills. Im patting myself on the back right
+            now because I started building this on saturday, its now monday
+            morning and we're nearly there!
           </p>
 
           <p>
@@ -63,17 +63,22 @@ const AboutPage = ({ data }, location) => {
           </p>
 
           <p>
-            Now for the juicy hard facts, what am I good at? (I'll add a tagged
-            list at the bottom) ...Ive done some cool stuff, and continue to
-            build fun things, but I am most excited about building new systems
-            that dont exist, that will help as many people as possible, while
-            everyone gets to have FUN learning and surprising themselves at
-            their own potential. That exites the shit out of me!
+            Now for the juicy hard facts, what am I good at?
+            <br />
+            <i>I'll add a tagged list at the bottom</i>
+            <br />
+            ...Ive done some cool stuff, and continue to build fun things, but I
+            am most excited about inventing & developing new systems in
+            education and gaming. Systems that will empower people to elevate
+            their knowledge and learning skills while they get to have FUN,
+            surprising themselves at their own potential.
+            <br />
+            That exites the shit out of me!
           </p>
 
           <h3>AWESOME STUFF IVE DONE...</h3>
 
-          <p>
+          <span>
             <ul>
               <li>I started my own game development company</li>
               <li>taught myself how to code</li>
@@ -89,14 +94,17 @@ const AboutPage = ({ data }, location) => {
             Graph, Probuilder, C#, Cinemachine, XR Interaction toolkit, Shader
             Graph, Terrain Builder, Javascript, React, CSS, Gatsby, Node.js,
             Adobe Photoshop, Adobe Illustrator, Substance Painter, Blender and
-            being kind to people. Thanks for reading MOIST regards, see ya!
-          </p>
+            being kind to people.
+          </span>
+          {/* TODO: be concise, link skills to projects */}
 
           <p>
             Thanks for reading
             <br />
-            MOIST regards, see ya!
+            MOIST regards,
           </p>
+
+          <p>Anai Araya</p>
           <Img fluid={data.popme.childImageSharp.fluid} className="kg-image" />
         </div>
       </article>
