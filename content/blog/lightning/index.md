@@ -1,5 +1,5 @@
 ---
-title: blender lightning
+title: blender electricity
 date: "2023-01-28"
 thumbnail: ./lightning.png
 description: This is a lightning asset I buit and animated on Blender using Geometry Nodes.
@@ -7,11 +7,29 @@ description: This is a lightning asset I buit and animated on Blender using Geom
 
 ![image of the blender monkey shooting off lightning from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675308134/portfolio/0001-0230_s1ewe7.gif)
 
-### Blender lightning asset
+### BLENDER ELECTRIITY ASSET
 
-This is a lightning asset I buit and animated on Blender using Geometry Nodes.
+This is a electricity asset I buit and animated on Blender using Geometry Nodes that shoots off sparks in proximity to other objects.
 
-> geometry nodes map of lightning asset
-> ![geometry nodes map of lightning asset](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675308408/portfolio/geometrynodes_pgznu8.png)
+> 1. added objects for the electricity to branch, to and from nearby objects
+> 2. distributed points from the target object and instanced lines
+> 3. found closest objects with the geometry proximity node
+> 4. spread out points by mixing some noise into the proximity node
+> 5. used that same node to tell how close together the objects are
+> 6. took connected arcs and floating arcs and added some distortion
+> 7. add a flickering mode to make it more chaotic
+> 8. gave arcs some thickness and a material
+> 9. animated with various HDRI environment backgrounds
 
-![image of the blender monkey shooting off lightning from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675308396/portfolio/lightningdark_d8lnfk.png)
+<div class="kg-card kg-image-card kg-width-wide">
+
+geometry nodes map of electricity asset
+![geometry nodes map of electricity asset](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675308408/portfolio/geometrynodes_pgznu8.png)
+
+</div>
+
+![image of the blender monkey shooting off electricity from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675597915/portfolio/ocean_bkak28.png)
+
+![image of the blender monkey shooting off electricity from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675597908/portfolio/milkyway_uwmlpc.png)
+
+> thanks to [joey carlino's tutorial](https://www.youtube.com/watch?v=hsorqBV4nPc)
