@@ -32,4 +32,14 @@ geometry nodes map of electricity asset
 
 ![image of the blender monkey shooting off electricity from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675597908/portfolio/milkyway_uwmlpc.png)
 
-> thanks to [joey carlino's tutorial](https://www.youtube.com/watch?v=hsorqBV4nPc)
+![image of the blender monkey shooting off electricity from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675738898/portfolio/house_ks9kjb.jpg)
+
+<div class="kg-card kg-image-card kg-width-wide">
+
+![image of the blender monkey shooting off lightning from their head](./scene.gif)
+
+</div>
+
+> I built this scene to demonstrate the electricity clinging to various objects as I move it around, I built and animated this scene on blender.
+
+thanks to [joey carlino's tutorial](https://www.youtube.com/watch?v=hsorqBV4nPc)
