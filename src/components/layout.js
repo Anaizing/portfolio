@@ -32,16 +32,56 @@ const Layout = props => {
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-elements" role="menuitem">
-                <Link to={`/contact`}>Contact</Link>
+                <Link
+                  to={`/contact`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Contact
+                </Link>
               </li>
-              <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Projects</Link>
+              <li className="nav-home " role="menuitem">
+                <Link
+                  to={`/`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Projects
+                </Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link
+                  to={`/about`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  About
+                </Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/codepens`}>Codepens</Link>
+                <Link
+                  to={`/codepens`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Codepens
+                </Link>
               </li>
             </ul>
           </nav>
