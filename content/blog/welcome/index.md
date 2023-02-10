@@ -11,6 +11,6 @@ Thank you for taking an interest in my work! Here you will find out a little mor
 <br>
 And now you might be able to find me in a crowd too!
 
-> my socials are on the top right... who knows maybe we'll collaborate sometime.
+> you can [contact me here](/contact)... who knows maybe we'll collaborate sometime.
 
 ![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675007417/portfolio/anai_gd04vx.jpg)
