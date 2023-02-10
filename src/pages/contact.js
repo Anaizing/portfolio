@@ -48,7 +48,7 @@ const ContactPage = ({ data }) => {
               />
             </label>
 
-            <div className="post-content-body">
+            <label>
               I'd like to discuss
               <select name="demo-category" id="demo-category" required>
                 <option value={"HIRING"}>HIRING YOU</option>
@@ -56,7 +56,7 @@ const ContactPage = ({ data }) => {
                 <option value={"collab"}>collaborating</option>
                 <option value={"investor"}>INVESTING in SOGGY INK GAMES</option>
               </select>
-            </div>
+            </label>
             <label>
               get back at
               <input
