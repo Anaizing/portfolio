@@ -31,6 +31,9 @@ const Layout = props => {
           </a>
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
+              <li className="nav-elements" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
+              </li>
               <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Projects</Link>
               </li>
