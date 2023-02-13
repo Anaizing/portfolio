@@ -4,6 +4,10 @@ import Typewriter from "typewriter-effect";
 export const TypewriterIntro = ({}) => {
   return (
     <Typewriter
+      options={{
+        deleteSpeed: 20,
+        delay: 59
+      }}
       onInit={typewriter => {
         typewriter
           .typeString(
@@ -19,7 +23,7 @@ export const TypewriterIntro = ({}) => {
           .callFunction(() => {
             console.log("String typed out!");
           })
-          .pauseFor(300)
+          .pauseFor(400)
           .deleteChars(10)
           .callFunction(() => {
             console.log("All strings were deleted");
@@ -30,7 +34,7 @@ export const TypewriterIntro = ({}) => {
           .callFunction(() => {
             console.log("String typed out!");
           })
-          .pauseFor(300)
+          .pauseFor(400)
           .deleteChars(17)
           .callFunction(() => {
             console.log("All strings were deleted");
@@ -41,7 +45,7 @@ export const TypewriterIntro = ({}) => {
           .callFunction(() => {
             console.log("String typed out!");
           })
-          .pauseFor(300)
+          .pauseFor(500)
           .deleteChars(18)
           .callFunction(() => {
             console.log("All strings were deleted");
@@ -52,7 +56,7 @@ export const TypewriterIntro = ({}) => {
           .callFunction(() => {
             console.log("String typed out!");
           })
-          .pauseFor(300)
+          .pauseFor(400)
           .deleteChars(8)
           .callFunction(() => {
             console.log("All strings were deleted");
