@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql, StaticQuery } from "gatsby";
+import { TypewriterIntro } from "../components/typewriter";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -24,11 +25,11 @@ const BlogIndex = ({ data }, location) => {
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
+            <TypewriterIntro />
           </h2>
         </header>
       )}
-      <div>webgl goes here</div>
+      <div>{/* todo: add webgl here */}</div>
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++;
