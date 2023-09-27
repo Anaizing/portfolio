@@ -14,7 +14,8 @@ const Layout = props => {
         <div className="site-head-container">
           <a
             className="nav-burger"
-            href={`#`}
+            href="#"
+            aria-label="landing page"
             onClick={() => setToggleNav(!toggleNav)}
           >
             <div
@@ -28,17 +29,60 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-left">
+          <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
-              <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Projects</Link>
+              <li className="nav-elements" role="menuitem">
+                <Link
+                  to={`/contact`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Contact
+                </Link>
+              </li>
+              <li className="nav-home " role="menuitem">
+                <Link
+                  to={`/`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Projects
+                </Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link
+                  to={`/about`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  About
+                </Link>
               </li>
-              {/* <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li> */}
+              <li className="nav-elements" role="menuitem">
+                <Link
+                  to={`/codepens`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Codepens
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="site-head-center">

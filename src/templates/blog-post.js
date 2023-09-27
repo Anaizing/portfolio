@@ -1,14 +1,14 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { graphql } from "gatsby";
+import Img from "gatsby-image";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const post = this.props.data.markdownRemark;
+    const siteTitle = this.props.data.site.siteMetadata.title;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -24,7 +24,9 @@ class BlogPostTemplate extends React.Component {
           </header>
 
           {post.frontmatter.description && (
-            <p class="post-content-excerpt">{post.frontmatter.description}</p>
+            <p className="post-content-excerpt">
+              {post.frontmatter.description}
+            </p>
           )}
 
           {post.frontmatter.thumbnail && (
@@ -50,11 +52,11 @@ class BlogPostTemplate extends React.Component {
           </footer>
         </article>
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -82,4 +84,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
