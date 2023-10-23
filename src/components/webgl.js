@@ -18,9 +18,9 @@ export const WebGLRenderer = () => {
 
   return (
     <Unity
-      id="react-unity-webgl-canvas-2"
+      id="react-unity-webgl-canvas-1"
       unityProvider={unityProvider}
-      style={{ width: 800, height: 400 }}
+      style={{ width: "100vw", padding: 0 }}
     />
   );
 };
