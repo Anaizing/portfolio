@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import { TypewriterIntro } from "../components/typewriter";
-import { WebGLRenderer } from "../components/webgl";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -30,9 +29,6 @@ const BlogIndex = ({ data }, location) => {
           </h2>
         </header>
       )}
-      <div>
-        <WebGLRenderer />
-      </div>
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++;
