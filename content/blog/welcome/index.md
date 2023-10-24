@@ -2,6 +2,7 @@
 title: welcome
 date: "2023-01-31"
 thumbnail: ./anai3.jpg
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642989/intro.png
 description: ...Failure does not mean GAME OVER, it means try again with EXPERIENCE
 ---
 

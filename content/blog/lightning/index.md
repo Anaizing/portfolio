@@ -2,6 +2,7 @@
 title: blender electricity
 date: "2023-01-28"
 thumbnail: ./lightning.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642992/blender.png
 description: This is a lightning asset I buit and animated on Blender using Geometry Nodes.
 ---
 

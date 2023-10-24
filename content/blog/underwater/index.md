@@ -2,6 +2,7 @@
 title: unity underwater level design
 date: "2023-01-29"
 thumbnail: ./underwaterlevel.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642991/unity.png
 description: This is an underwater styled level design built in Unity for soggyinkgames
 ---
 

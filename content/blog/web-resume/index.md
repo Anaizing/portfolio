@@ -2,6 +2,7 @@
 title: web resume
 date: "2023-01-28"
 thumbnail: ./websitereferences.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642993/website.png
 description: Sometimes simplicity is all you need.
 ---
 

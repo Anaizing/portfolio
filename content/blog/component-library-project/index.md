@@ -1,7 +1,8 @@
 ---
 title: component library
 date: "2023-01-26"
-# thumbnail: ./componentlibrary.png
+thumbnail: ./componentlibrary.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642990/code.png
 description: A library of React components that incorporates Atomic design principles in composition.
 ---
 
