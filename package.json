@@ -8,8 +8,13 @@
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },
   "dependencies": {
+    "@google/model-viewer": "^3.3.0",
+    "aos": "^3.0.0-beta.6",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
+    "gatsby-plugin-aphrodite": "^2.1.1",
+    "gatsby-plugin-emoji-cursor": "^1.0.2",
+    "gatsby-plugin-enhanced-emoji-cursor": "^1.0.5",
     "gatsby-plugin-feed": "^2.2.0",
     "gatsby-plugin-google-analytics": "^2.0.19",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -25,13 +30,16 @@
     "gatsby-remark-responsive-iframe": "^2.1.1",
     "gatsby-remark-smartypants": "^2.0.9",
     "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-json": "2.5.0",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.19",
     "prismjs": "^1.16.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-magic": "^0.2.4",
     "react-unity-webgl": "^9.4.3",
+    "three": "^0.157.0",
     "typeface-alegreya": "^0.0.69",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
@@ -42,11 +50,13 @@
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "husky": "^2.2.0",
+    "postcss": "^8.4.31",
     "postcss-color-function": "^4.1.0",
     "postcss-custom-properties": "^8.0.10",
     "postcss-easy-import": "^3.0.0",
     "prettier": "^1.17.0",
-    "pretty-quick": "^1.10.0"
+    "pretty-quick": "^1.10.0",
+    "tailwindcss": "^3.3.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [

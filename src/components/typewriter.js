@@ -11,8 +11,24 @@ export const TypewriterIntro = ({}) => {
       onInit={typewriter => {
         typewriter
           .typeString(
-            "I AM A FRONTEND ENGINEER, VR/XR DEVELOPER AND FOUNDER BASED IN SYDNEY. I HAVE MANY YEARS OF EXPERIENCE IN SOFTWARE DEVELOPMENT AND ALL THINGS DIGITAL. I LOVE"
+            "HEY THERE! i AM ANAi, a FRONTEND ENGINEER, VR/XR DEVELOPER AND FOUNDER BASED IN SYDNEY. "
           )
+          .callFunction(() => {
+            console.log("String typed out!");
+          })
+          .pauseFor(300)
+          .start();
+        typewriter
+          .typeString(
+            "I HAVE OVER 5 YEARS EXPERIENCE IN SOFTWARE DEVELOPMENT AND ALL THINGS DIGITAL "
+          )
+          .callFunction(() => {
+            console.log("String typed out!");
+          })
+          .pauseFor(300)
+          .start();
+        typewriter
+          .typeString(" ..I LOVE ")
           .callFunction(() => {
             console.log("String typed out!");
           })
@@ -63,7 +79,9 @@ export const TypewriterIntro = ({}) => {
           })
           .start();
         typewriter
-          .typeString("MAKING STUFF.")
+          .typeString(
+            `<a href="./codepens"><span style="color: #04F4F0" > MAKING STUFF </span></a>`
+          )
           .callFunction(() => {
             console.log("String typed out!");
           })
@@ -84,5 +102,3 @@ export const TypewriterIntro = ({}) => {
     />
   );
 };
-
-// I LOVE 3D DESIGN. I LOVE GAME DEVELOPMENT. I LOVE LEARNING NEW TECH. I LOVE DANCING AND MAKING STUFF.

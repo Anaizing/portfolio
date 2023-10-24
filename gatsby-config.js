@@ -13,6 +13,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-enhanced-emoji-cursor`,
+      // These are the default options.
+      options: {
+        emoji: [`😀😂🍆😆😊`],
+        fontSize: `40px`,
+        lifeSpan: 125,
+        interval: 100
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -24,6 +34,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/models`,
+        name: `models`
       }
     },
     {
@@ -48,7 +65,9 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
+          `gatsby-remark-smartypants`,
+          `gatsby-transformer-json`,
+          `gatsby-plugin-aphrodite`
         ]
       }
     },
