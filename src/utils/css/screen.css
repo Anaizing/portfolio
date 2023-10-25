@@ -606,6 +606,18 @@ body {
   background-color: #2cd3e1;
 }
 
+@media (max-width: 767px) {
+  .container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0;
+  }
+}
+
 .cards {
   list-style: none;
   white-space: nowrap;
@@ -621,8 +633,8 @@ body {
 
 .cards li {
   display: inline-block;
-  margin-top: 100px;
-  margin-bottom: 300px;
+  margin-top: 200px;
+  margin-bottom: 400px;
   width: 300px;
   aspect-ratio: 1;
 }
@@ -640,6 +652,22 @@ body {
 
   -webkit-box-reflect: below 0.5em
     linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.25));
+}
+
+@media (max-width: 1024px) {
+  .cards li article {
+    width: 70%;
+    height: 70%;
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cards li article {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+  }
 }
 .cards li {
   /* Track this element as it intersects the scrollport */
