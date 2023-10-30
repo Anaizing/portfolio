@@ -467,11 +467,8 @@ body {
 }
 
 .post-card {
-  /* position: relative; */
-  /* flex: 1 1 50%; */
   display: flex;
   position: relative;
-  height: 100%;
   background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
   background-size: cover;
   overflow: hidden;
@@ -497,15 +494,6 @@ body {
 }
 
 .post-card-content {
-  /* flex: 1 1 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute; */
-  /* top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; */
   color: rgb(225, 225, 225);
   background: linear-gradient(217deg, #fdbde3, rgba(255, 0, 0, 0) 70.71%);
   /* linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(0, 255, 0, 0) 70.71%), */
@@ -530,20 +518,27 @@ body {
 }
 
 .post-card-title {
-  /* background: url("https://res.cloudinary.com/soggy-ink-games/image/upload/v1697637068/mememe_2_hapzuj.png") no-repeat center center fixed; */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
   width: 300px;
   height: 300px;
   position: relative;
   margin: 0;
-  /* display: inline-block; */
   font-size: 3.4rem;
-  /* max-width: 70%; */
   text-align: center;
   transition: all 0.3s cubic-bezier(0.33, 0, 0.2, 1);
+}
+
+@media (max-width: 1024px) {
+  .post-card-title {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-card-title {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /* Posts without images */
@@ -591,7 +586,7 @@ body {
 /* Projects carousel
 /* ---------------------------------------------------------- */
 
-.container {
+.projects-carousel {
   width: 100vw;
   max-height: 100%;
   padding: 100px;
@@ -607,13 +602,13 @@ body {
 }
 
 @media (max-width: 767px) {
-  .container {
+  .projects-carousel {
     padding: 0;
   }
 }
 
 @media (max-width: 1024px) {
-  .container {
+  .projects-carousel {
     padding: 0;
   }
 }
