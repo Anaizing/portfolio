@@ -534,7 +534,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .post-card-title {
     width: 150px;
     height: 150px;
@@ -583,12 +583,31 @@ body {
   }
 }
 
+@keyframes card-overlay {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transition: opacity 0.3s cubic-bezier(0.33, 0, 0.2, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cards .post-card-content {
+  /* Link an animation to the established view-timeline (of the parent li) and have it run during the contain phase */
+  animation: linear card-overlay both;
+  animation-timeline: --li-in-and-out-of-view;
+}
+
 /* Projects carousel
 /* ---------------------------------------------------------- */
 
 .projects-carousel {
   width: 100vw;
-  max-height: 100%;
+  max-height: 150vh;
   padding: 100px;
   align-content: safe center;
   background-clip: border-box;
@@ -712,6 +731,108 @@ body {
   animation-timeline: --li-in-and-out-of-view;
 }
 
+.project-text {
+  position: relative;
+  float: left;
+  left: 5vw;
+  top: 15vh;
+  height: 300px;
+  text-align: justify;
+  text-wrap: wrap;
+}
+
+.project-tags {
+  font-size: 0.7em;
+  color: #fff;
+}
+
+@media (max-width: 2080px) {
+  .cards .project-text {
+    width: 400px;
+    left: 0;
+    margin-left: -120px;
+    /* background-color: orange; */
+  }
+  .cards .project-title {
+    font-size: 2em;
+  }
+  .cards .project-tags {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 1024px) {
+  .cards .project-text {
+    width: 300px;
+    left: 0;
+    margin-left: -50px;
+  }
+  .cards .project-title {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 767px) {
+  .cards .project-text {
+    width: 300px;
+    padding: 0 40px;
+    left: 0;
+    margin-left: -20px;
+  }
+  .cards .project-title {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 300px) {
+  .cards .project-text {
+    width: 250px;
+    padding: 0 40px;
+    left: 0;
+    margin-left: 0px;
+    font-size: 0.9em;
+  }
+  .cards .project-title {
+    font-size: 1.5em;
+  }
+  .cards .project-tags {
+    font-size: 0.8em;
+  }
+}
+
+@keyframes hide-side-text {
+  0% {
+    /* color: red; */
+    visibility: hidden;
+  }
+  35% {
+    /* color: red; */
+    visibility: hidden;
+  }
+  45% {
+    /* color: red; */
+    visibility: hidden;
+  }
+  50% {
+    /* color: white; */
+    visibility: visible;
+  }
+  55% {
+    /* color: red; */
+    visibility: hidden;
+  }
+  65% {
+    /* color: red; */
+    visibility: hidden;
+  }
+  100% {
+    /* color: red; */
+    visibility: hidden;
+  }
+}
+
+.cards .project-text {
+  /* Link an animation to the established view-timeline (of the parent li) and have it run during the contain phase */
+  animation: linear hide-side-text both;
+  animation-timeline: --li-in-and-out-of-view;
+}
 /* Post Content
 /* ---------------------------------------------------------- */
 

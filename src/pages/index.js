@@ -1,4 +1,4 @@
-import React from "react";
+import React /*{ useEffect, useState, useMemo, useRef }*/ from "react";
 import { StaticQuery } from "gatsby";
 import { css } from "aphrodite";
 
@@ -18,66 +18,66 @@ const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
 
-  // const model = data.file.publicURL;
   let postCounter = 0;
 
   return (
     <Layout title={siteTitle}>
-      <div>
-        <SEO
-          title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
-        {/* <Bio /> */}
-        {data.site.siteMetadata.description && (
-          <header className="page-head ">
-            <div className="hide-me">
-              <img
-                className={css(stylesVanishIn.magic)}
-                src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1697250573/logo_face_j5h5as.png"
-                alt="blue"
-              ></img>
-            </div>
-            <h2
-              className="spicy"
-              style={{
-                fontSize: "2em",
-                height: "100%",
-                flex: 1,
-                display: "flex",
-                alignItems: "center"
-              }}
-            >
-              <TypewriterIntro />
-            </h2>
-          </header>
-        )}
+      <SEO
+        title="All posts"
+        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+      />
+      {/* <Bio /> */}
+      {data.site.siteMetadata.description && (
+        <header className="page-head ">
+          <div>
+            <img
+              className={css(stylesVanishIn.magic)}
+              src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1697250573/logo_face_j5h5as.png"
+              alt="blue"
+            ></img>
+          </div>
+          <h2
+            className="spicy"
+            style={{
+              fontSize: "2em",
+              height: "100%",
+              flex: 1,
+              display: "flex",
+              alignItems: "center"
+            }}
+          >
+            <TypewriterIntro />
+          </h2>
+        </header>
+      )}
 
-        {/* 3D area to add */}
-        {/* <div style={{ height: "100vh", width: "100vw", backgroundColor: "cyan" }}>
-          3d stuff */}
-        {/* <MyModelViewer */}
-        {/* ></MyModelViewer> */}
-        {/* </div> */}
+      {/* 3D area to add */}
+      {/* <div style={{ height: "100vh", width: "100vw", backgroundColor: "cyan" }} >
+        3d stuff */}
+      {/* <MyModelViewer model={"/models/lalala.glb"} />
+        <MyModelViewer model={"/models/GLman.glb"} /> */}
+      {/* </div> */}
 
-        {/* Projects slide */}
-        <div className="container">
-          <ul className="cards">
-            {posts.map(({ node }) => {
-              postCounter++;
-              return (
-                <li>
-                  <PostCard
-                    key={node.fields.slug}
-                    count={postCounter}
-                    node={node}
-                    postClass={`post`}
-                  />
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+      {/* //todo: update copy */}
+      {/* //todo: publish*/}
+      {/* Projects carousel */}
+      <div className="projects-carousel">
+        <ul className="cards ">
+          {posts.map(({ node }) => {
+            postCounter++;
+            return (
+              <li key={node.id + node.id}>
+                <PostCard
+                  id={node.id}
+                  key={node.fields.slug.toString()}
+                  count={postCounter}
+                  node={node}
+                  postClass={`post`}
+                ></PostCard>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </Layout>
   );
@@ -99,6 +99,7 @@ const indexQuery = graphql`
       edges {
         node {
           excerpt
+          id
           fields {
             slug
           }
@@ -126,9 +127,12 @@ export default props => {
     <StaticQuery
       query={indexQuery}
       render={data => (
-        <BlogIndex location={props.location} props data={data} {...props}>
-          {/* {console.log(getAllImages)} */}
-        </BlogIndex>
+        <BlogIndex
+          location={props.location}
+          props
+          data={data}
+          {...props}
+        ></BlogIndex>
       )}
     />
   );
