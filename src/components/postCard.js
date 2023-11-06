@@ -37,11 +37,7 @@ export default props => (
 
     <div>
       <div className="project-text">
-        <span className="project-tags">
-          {" "}
-          react unity blender other longword
-          {/* props.node.frontmatter.tags */}
-        </span>
+        <span className="project-tags">{props.node.frontmatter.tags}</span>
         <h1 className="project-title">{props.node.frontmatter.title}</h1>
         <p className="project-description ">
           {props.node.frontmatter.description}

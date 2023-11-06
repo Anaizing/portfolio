@@ -4,6 +4,7 @@ date: "2023-01-30"
 thumbnail: ./landingpage.png
 background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642993/website.png
 description: This is a responsive, SPA, web development website complete with blog section, landing page, registration form and aesthetically pleasing UI/UX.
+tags: web-design react graphql gatsby javascript css
 ---
 
 ![website's laptop mock up views and description of skills used](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675008023/portfolio/laptopmock_lu2g8d.gif)
