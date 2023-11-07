@@ -36,7 +36,7 @@ const Layout = props => {
                   to={`/contact`}
                   activeClassName="active"
                   activeStyle={{
-                    color: "#fe78cc",
+                    color: "#2CD3E1",
                     textDecoration: "none",
                     opacity: "1"
                   }}
@@ -62,7 +62,7 @@ const Layout = props => {
                   to={`/about`}
                   activeClassName="active"
                   activeStyle={{
-                    color: "#fe78cc",
+                    color: "#2CD3E1",
                     textDecoration: "none",
                     opacity: "1"
                   }}
@@ -81,6 +81,20 @@ const Layout = props => {
                   }}
                 >
                   Codepens
+                </Link>
+              </li>
+
+              <li className="nav-elements" role="menuitem">
+                <Link
+                  to={`/game-view`}
+                  activeClassName="active"
+                  activeStyle={{
+                    color: "#fe78cc",
+                    textDecoration: "none",
+                    opacity: "1"
+                  }}
+                >
+                  Game View
                 </Link>
               </li>
             </ul>

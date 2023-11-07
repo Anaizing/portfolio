@@ -2,7 +2,9 @@
 title: blender electricity
 date: "2023-01-28"
 thumbnail: ./lightning.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642992/blender.png
 description: This is a lightning asset I buit and animated on Blender using Geometry Nodes.
+tags: blender geometry-nodes
 ---
 
 ![image of the blender monkey shooting off lightning from their head](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675308134/portfolio/0001-0230_s1ewe7.gif)

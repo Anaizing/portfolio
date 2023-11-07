@@ -1,8 +1,10 @@
 ---
 title: web resume
 date: "2023-01-28"
-# thumbnail: ./websitereferences.png
+thumbnail: ./websitereferences.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642993/website.png
 description: Sometimes simplicity is all you need.
+tags: html css javascript
 ---
 
 ![website desktop view of professional endorsements](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675133672/portfolio/websitereferences_hxkd0o.png)
