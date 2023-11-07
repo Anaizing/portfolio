@@ -1,17 +1,33 @@
 /* Variables
 /* ---------------------------------------------------------- */
 
-@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,700,700i,800&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,700,700i,800&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,400i,600,700,700i,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:400,400i,600,700,700i,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Armata:400,400i,600,700,700i,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text:400,400i,600,700,700i,800&display=swap");
+
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+
+/* @import url("https://fonts.googleapis.com/css?family=Gruppo:400,400i,600,700,700i,800&display=swap"); */
 
 :root {
   /* Colours */
+  --color-secondary: #2cd3e1;
   --color-primary: #fe78cc;
   --color-base: #131313;
   --color-border: #ddd;
   --color-bg: #f8f8f8;
 
   /* Fonts */
-  --font-sans-serif: "Muli", sans-serif;
+  /* --font-sans-serif: "Bruno Ace", sans-serif; */
+  /* --font-sans-serif: "Gruppo", sans-serif; */
+  /* --font-sans-serif: "Libre Barcode 39 Extended Text", sans-serif; */
+  --font-sans-serif: "Bungee Spice", sans-serif;
   --font-serif: Georgia, Times, serif;
   --font-mono: Menlo, Courier, monospace;
   --font-light: 100;
@@ -19,11 +35,13 @@
   --font-bold: 700;
   --font-heavy: 800;
 
+  /* @MEDIA QUERIES WOOP WOOP */
   /* Breakpoints */
   --xlarge: 1680px;
   --large: 1280px;
-  --medium: 980px;
-  --small: 740px;
+  --medium: 1024px;
+  --boop: 820px;
+  --small: 767;
   --xsmall: 480px;
 
   /* Sizes */
@@ -31,3 +49,8 @@
   --margin: 2rem;
   --radius: 0.5rem;
 }
+
+/* use like this
+@media (max-width: var(--xsmall)) {
+
+} */

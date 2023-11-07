@@ -51,7 +51,7 @@
   text-align: left;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .kg-width-full {
     width: 100vw;
   }
