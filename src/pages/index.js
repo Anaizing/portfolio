@@ -36,18 +36,20 @@ const BlogIndex = ({ data }, location) => {
               alt="blue"
             ></img>
           </div>
-          <h2
-            className="spicy"
-            style={{
-              fontSize: "2em",
-              height: "100%",
-              flex: 1,
-              display: "flex",
-              alignItems: "center"
-            }}
-          >
-            <TypewriterIntro />
-          </h2>
+          <div className="intro-typewriter-container">
+            <h2
+              className="spicy"
+              style={{
+                fontSize: "2em",
+                height: "100%",
+                flex: 1,
+                display: "flex",
+                alignItems: "center"
+              }}
+            >
+              <TypewriterIntro />
+            </h2>
+          </div>
         </header>
       )}
 

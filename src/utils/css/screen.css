@@ -29,6 +29,10 @@ body {
   transition-delay: 0.25;
 }
 
+p {
+  font-family: "Armata", sans-serif;
+}
+
 @font-palette-values --colorized {
   font-family: "Bungee Spice";
   base-palette: 0;
@@ -62,11 +66,6 @@ body {
   min-height: 100vh;
 }
 
-@media (max-width: 767px) {
-  .site-wrapper {
-  }
-}
-
 .page-head {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
@@ -84,6 +83,16 @@ body {
   text-align: center;
 }
 
+.intro-typewriter-container {
+  margin: 0 10px;
+  text-align: justify;
+}
+
+@media (max-width: 1280px) {
+  .intro-typewriter-container {
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 1024px) {
   .page-head {
     display: grid;
@@ -93,7 +102,7 @@ body {
     grid-template-areas: ". .";
     justify-content: center;
 
-    height: 90vh;
+    height: 95vh;
     align-items: center;
     justify-content: center;
     padding: 5vw 0;
@@ -101,9 +110,32 @@ body {
     margin: auto;
     text-align: center;
   }
+  .intro-typewriter-container {
+    font-size: 0.8em;
+  }
 }
-
 @media (max-width: 767px) {
+  .page-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 20px;
+    grid-template-areas: ". .";
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 0;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .intro-typewriter-container {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 480px) {
   .page-head {
     display: grid;
     grid-template-columns: 2fr;
@@ -115,6 +147,11 @@ body {
     justify-content: center;
     font-size: 0.7em;
     max-width: 100vw;
+  }
+
+  .intro-typewriter-container {
+    padding: 0 35px 30px;
+    font-size: 0.8em;
   }
 }
 
@@ -191,7 +228,7 @@ body {
   position: relative;
   z-index: 300;
   font-size: 1.35rem;
-  padding: 3vw 1vh;
+  padding: 1vw 1vh;
 }
 
 .site-head-container {
@@ -518,8 +555,8 @@ body {
 }
 
 .post-card-title {
-  width: 300px;
-  height: 300px;
+  width: 238px;
+  height: 238px;
   position: relative;
   margin: 0;
   font-size: 3.4rem;
@@ -608,7 +645,7 @@ body {
 .projects-carousel {
   width: 100vw;
   max-height: 150vh;
-  padding: 100px;
+  padding: 100px 0;
   align-content: safe center;
   background-clip: border-box;
   margin-bottom: 0px;
@@ -661,13 +698,19 @@ body {
   scroll-snap-align: center;
 }
 .cards li article {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 
   -webkit-box-reflect: below 0.5em
     linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.25));
 }
-
+/* @media (max-width: 1280px) {
+  .cards li article {
+    width: 70%;
+    height: 70%;
+    margin-left: 25%;
+  }
+} */
 @media (max-width: 1024px) {
   .cards li article {
     width: 70%;
