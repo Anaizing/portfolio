@@ -821,7 +821,7 @@ function createUnityInstance(t, n, c) {
               (!(t = a) || !t.method || "GET" === t.method) &&
                 (!t ||
                   -1 != ["must-revalidate", "immutable"].indexOf(t.control)) &&
-                  !!e.match("^https?://"))
+                !!e.match("^https?://"))
           };
         function d(n, r) {
           return fetch(n, r).then(function(e) {
