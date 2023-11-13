@@ -62,10 +62,6 @@ p {
 /* Layout
 /* ---------------------------------------------------------- */
 
-.site-wrapper {
-  min-height: 100vh;
-}
-
 .page-head {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
@@ -328,6 +324,11 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+@media (max-width: 480px) {
+  .site-head-logo {
+    font-size: 1.9rem;
+  }
 }
 
 .site-head-logo:hover {
