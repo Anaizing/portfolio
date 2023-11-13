@@ -6685,16 +6685,6 @@ gatsby-plugin-aphrodite@^2.1.1:
   dependencies:
     "@babel/runtime" "7.1.5"
 
-gatsby-plugin-emoji-cursor@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/gatsby-plugin-emoji-cursor/-/gatsby-plugin-emoji-cursor-1.0.2.tgz"
-  integrity sha512-Daw6NwbQiyOoApyU3XbFWI28u+k1uklAWfgSdBUknkhJvQOvpi1zxsjFWjT6SBGv3PiDsgjcIpT+hMI+W4Buag==
-
-gatsby-plugin-enhanced-emoji-cursor@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/gatsby-plugin-enhanced-emoji-cursor/-/gatsby-plugin-enhanced-emoji-cursor-1.0.5.tgz"
-  integrity sha512-ZZ18hUQ6+KDik3g3tIvETT9C1svErZ6mcvS0TDq0OzUfnEUP+yF9eEBMQ7/7VDUY70GF+aj0ltIQ9+UNHhQFTA==
-
 gatsby-plugin-feed@^2.2.0:
   version "2.13.1"
   resolved "https://registry.npmjs.org/gatsby-plugin-feed/-/gatsby-plugin-feed-2.13.1.tgz"
