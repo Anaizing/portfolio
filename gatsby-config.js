@@ -13,16 +13,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-enhanced-emoji-cursor`,
-      // These are the default options.
-      options: {
-        emoji: [`😀😂🍆😆😊`],
-        fontSize: `40px`,
-        lifeSpan: 125,
-        interval: 100
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
