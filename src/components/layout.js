@@ -89,7 +89,7 @@ const Layout = props => {
                   to={`/game-view`}
                   activeClassName="active"
                   activeStyle={{
-                    color: "#fe78cc",
+                    color: "#2CD3E1",
                     textDecoration: "none",
                     opacity: "1"
                   }}
