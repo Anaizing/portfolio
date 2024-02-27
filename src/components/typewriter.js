@@ -11,7 +11,7 @@ export const TypewriterIntro = ({}) => {
       onInit={typewriter => {
         typewriter
           .typeString(
-            "HEY THERE! i AM ANAi, a FRONTEND ENGINEER, VR/XR DEVELOPER AND FOUNDER BASED IN SYDNEY. "
+            "HEY THERE! i AM iAN, a FRONTEND ENGINEER, VR/XR DEVELOPER AND FOUNDER BASED IN SYDNEY. "
           )
           // .callFunction(() => {
           //   console.log("String typed out!");
