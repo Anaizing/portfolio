@@ -1,8 +1,8 @@
-# Anai's Portfolio
+# Ian's Portfolio
 
 ---
 
-![screenshot of projects page of Anai's Portfolio](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675034375/portfolio/MY-PORTFOLIO_ayex92.png)
+![screenshot of projects page of Ian's Portfolio](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675034375/portfolio/MY-PORTFOLIO_ayex92.png)
 
 ## PORTFOLIO
 
