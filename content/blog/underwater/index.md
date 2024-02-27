@@ -3,32 +3,34 @@ title: unity underwater level design
 date: "2023-01-29"
 thumbnail: ./underwaterlevel.png
 background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642991/unity.png
-description: This is an underwater styled level design built in Unity for soggyinkgames
+description: Within the realm of game development, this project stands as an intricately designed underwater-themed level meticulously constructed using the Unity engine, tailored specifically for SOGGY INK GAMES.
 tags: unity c# probuilder shader-graph vfx-graph post-processing cinemachine
 ---
 
-<!--
-![underwater level design in unity, camepa panning arounf room showing glowing orb](./testOrbMovie_007.gif) -->
-
 ### Underwater bedroom level design
 
-This is a virtual reality, underwater styled level design built in Unity for soggyinkgames.
-This design demonstrates the use of a variety of unity tools, packages and techniques including...
+This VR underwater level, developed for SoggyInkGames, serves as my platform to demonstrate my diverse expertise showcasing Unity's adaptable toolkit.
 
-- Unity
-- ProBuilder
-- Shader Graph
-- VFX Graph
-- post processing
-- cinemachine
-- C#
+- Leveraging <b>Unity's Engine</b> as the core framework
 
-It features an flooded bedroom in an underwater world, with a portal and ghost furniture outline built
-using VFX Graph, the flooded area of water built with Shader Graph, building/walls created from a floorplan
-using Probuilder.
-Animation built with cinemachine.
+- <b>ProBuilder</b> for intricate structural modeling
 
-> A fun bit about the interior rock walls, these are actually my neighbour's very real external walls. I
-> was able to create a shader from a photograph of their walls and import it to unity to use anywhere I like!
+- <b>Shader Graph</b> for crafting mesmerizing underwater visual effects
+
+- Used <b>Visual Effects Graph</b> to make a cool portal and ghostly furniture outlines.
+
+- Implementation of <b>post-processing</b> techniques for heightened visual fidelity
+
+- Orchestrated seamless animated sequences using <b>Cinemachine</b>
+
+- The entire codebase crafted and optimized in <b>C#</b> for seamless integration
+
+Immersing players in an aquatic dreamscape, this scene encapsulates a submerged bedroom, complete with a compelling portal and spectral furniture outlines crafted via Visual Effects Graph. The aqueous surroundings, skillfully rendered using Shader Graph, exhibit a flooded atmosphere, wall construction built from a floor plan design using ProBuilder.
+
+![underwater level design in unity, camepa panning arounf room showing glowing orb](./underwater.gif)
+
+> In a playful dive into creativity, our underwater escapade unveils an amusing twist—an unlikely star makes a cameo: my neighbor's sturdy exterior walls!
+
+By cleverly transforming their property snapshot into an interior rock walls shader, I submerged their essence into this underwater realm. No neighbors got soaked in this virtual flood—promise! This quirky inclusion adds an authentic touch, merging real-life inspirations into this digital sea. It's the creativity that makes ripples—both in water and imagination—highlighting my diverse expertise using Unity's toolkit in crafting unexpectedly neighborly experiences.
 
 ![underwater level design in unity](https://res.cloudinary.com/soggy-ink-games/image/upload/v1676511763/portfolio/underwaterlevel_qyslmy.png)
