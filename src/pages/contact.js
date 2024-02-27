@@ -74,7 +74,7 @@ const ContactPage = ({ data }) => {
               fluid={data.glitchme.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Photography by Anai Araya</figcaption>
+            <figcaption>Photography by Ian Araya</figcaption>
           </figure>
         </div>
       </article>

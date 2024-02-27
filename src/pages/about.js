@@ -25,9 +25,9 @@ const AboutPage = ({ data }, location) => {
               fluid={data.glitchme.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Photography by Anai Araya</figcaption>
+            <figcaption>Photography by Ian Araya</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Anai Yusary Araya Rocha</h3>
+          <h3 id="dynamic-styles">Ian Yusary Araya Rocha</h3>
           <p>
             That up there is my full long-ass name, I probably shouldnt mention
             that this is the first time, in the 5+ years I've been building
@@ -104,7 +104,7 @@ const AboutPage = ({ data }, location) => {
             MOIST regards,
           </p>
 
-          <p>Anai Araya</p>
+          <p>Ian Araya</p>
           <Img fluid={data.popme.childImageSharp.fluid} className="kg-image" />
         </div>
       </article>

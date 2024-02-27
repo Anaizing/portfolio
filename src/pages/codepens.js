@@ -39,7 +39,7 @@ const Codepens = ({ data }, location) => {
             <a href="https://codepen.io/Anaizing/pen/KeONLv">
               anaizing-parallax-two
             </a>{" "}
-            by Anai (<a href="https://codepen.io/Anaizing">@Anaizing</a>) on{" "}
+            by Ian (<a href="https://codepen.io/Anaizing">@Anaizing</a>) on{" "}
             <a href="https://codepen.io">CodePen</a>.
           </iframe>
           <iframe
