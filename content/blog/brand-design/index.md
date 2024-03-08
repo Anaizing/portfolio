@@ -3,7 +3,7 @@ title: brand design
 date: "2023-01-27"
 thumbnail: ./soggyLogo.png
 description:
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642994/design.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/design-ian.png
 tags: design
 ---
 

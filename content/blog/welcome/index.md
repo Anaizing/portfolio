@@ -2,7 +2,7 @@
 title: welcome
 date: "2023-01-31"
 thumbnail: ./ian.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709053477/ian-a_wpumeh.jpg
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/intro-ian.png
 description: ...Failure does not mean GAME OVER, it means try again with EXPERIENCE
 tags: click intro or scroll sideways
 ---
@@ -15,4 +15,4 @@ And now you might be able to find me in a crowd too!
 
 > you can [contact me here](/contact)... who knows maybe we'll collaborate sometime.
 
-![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675007417/portfolio/anai_gd04vx.jpg)
+![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1709053477/ian-araya.jpg)

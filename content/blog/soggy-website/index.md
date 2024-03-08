@@ -2,7 +2,7 @@
 title: SOGGY INK GAMES' website
 date: "2023-01-30"
 thumbnail: ./landingpage.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1697642993/website.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/website-ian.png
 description: This project presents a responsive Single Page Application (SPA) , web development website complete with blog section, landing page, registration form and aesthetically pleasing UI/UX.
 tags: web-design react graphql gatsby javascript css
 ---
