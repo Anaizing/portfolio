@@ -15,4 +15,4 @@ And now you might be able to find me in a crowd too!
 
 > you can [contact me here](/contact)... who knows maybe we'll collaborate sometime.
 
-![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675007417/portfolio/anai_gd04vx.jpg)
+![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1709053477/ian-araya.jpg)
