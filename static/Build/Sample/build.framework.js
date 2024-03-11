@@ -2080,7 +2080,7 @@ var unityFramework = (() => {
       return !!Module.shouldQuit;
     }
     function _ToWebpage() {
-      window.location.assign("https://anai.netlify.app/lightning");
+      window.location.assign("https://ian-araya.netlify.app/lightning");
     }
     function ___cxa_allocate_exception(size) {
       return _malloc(size + 16) + 16;

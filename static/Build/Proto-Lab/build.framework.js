@@ -3034,7 +3034,7 @@ var unityFramework = (() => {
     }
     function _ToWebPage(pageString) {
       window.location.assign(
-        "https://anai.netlify.app/" + Pointer_stringify(pageString)
+        "https://ian-araya.netlify.app/" + Pointer_stringify(pageString)
       );
     }
     function ___cxa_allocate_exception(size) {
