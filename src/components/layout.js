@@ -70,7 +70,7 @@ const Layout = props => {
                   About
                 </Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              {/* <li className="nav-elements" role="menuitem">
                 <Link
                   to={`/codepens`}
                   activeClassName="active"
@@ -82,8 +82,7 @@ const Layout = props => {
                 >
                   Codepens
                 </Link>
-              </li>
-
+              </li> */}
               <li className="nav-elements" role="menuitem">
                 <Link
                   to={`/game-view`}
