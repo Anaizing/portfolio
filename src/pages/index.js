@@ -32,7 +32,7 @@ const BlogIndex = ({ data }, location) => {
           <div>
             <img
               className={css(stylesVanishIn.magic)}
-              src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1709051301/ian_dqgaof.png"
+              src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1709051301/me/ian_dqgaof.png"
               alt="blue"
             ></img>
           </div>
