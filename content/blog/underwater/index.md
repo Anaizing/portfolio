@@ -2,7 +2,7 @@
 title: unity underwater level design
 date: "2023-01-29"
 thumbnail: ./underwaterlevel.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/unity-ian.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/portfolio/unity-ian.png
 description: Within the realm of game development, this project stands as an intricately designed underwater-themed level meticulously constructed using the Unity engine, tailored specifically for SOGGY INK GAMES.
 tags: unity c# probuilder shader-graph vfx-graph post-processing cinemachine
 ---

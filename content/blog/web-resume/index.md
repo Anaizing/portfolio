@@ -2,7 +2,7 @@
 title: web resume
 date: "2023-01-28"
 thumbnail: ./websitereferences.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/website-ian.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/portfolio/website-ian.png
 description: Sometimes simplicity is all you need, here is a simple website utilising the basic tools of web development showcasing a web-resume in html, css and javascript.
 tags: html css javascript
 ---

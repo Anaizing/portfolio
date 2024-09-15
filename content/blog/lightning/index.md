@@ -2,7 +2,7 @@
 title: blender electricity
 date: "2023-01-28"
 thumbnail: ./lightning.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/blender-ian.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/portfolio/blender-ian.png
 description: This lightning asset was meticulously constructed and animated using Blender's Geometry Nodes, showcasing an intricate and dynamic lightning effect.
 tags: blender geometry-nodes
 ---

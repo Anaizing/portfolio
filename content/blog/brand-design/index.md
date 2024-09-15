@@ -3,7 +3,7 @@ title: brand design
 date: "2023-01-27"
 thumbnail: ./soggyLogo.png
 description: "SOGGY INK GAMES: you are smart enough"
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/design-ian.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/portfolio/design-ian.png
 tags: design
 ---
 
