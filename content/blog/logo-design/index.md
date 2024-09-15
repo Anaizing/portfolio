@@ -2,7 +2,7 @@
 title: logo design
 date: "2023-01-25"
 thumbnail: ./repeataftermewearefree.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/adobe-ian.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/portfolio/adobe-ian.png
 description: This logo stands as the embodiment of "repeataftermewearefree" meticulously crafted to capture the essence and values of this esteemed T-shirt company
 tags: adobe-illustrator photoshop
 ---

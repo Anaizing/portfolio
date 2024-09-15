@@ -2,7 +2,7 @@
 title: component library
 date: "2023-01-26"
 thumbnail: ./componentlibrary.png
-background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/code-ian.png
+background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/portfolio/code-ian.png
 description: A library of React components that incorporates Atomic design principles in composition.
 tags: javascript react
 ---
