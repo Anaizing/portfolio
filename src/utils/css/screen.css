@@ -252,6 +252,12 @@ p {
   color: var(--color-base);
 }
 
+@media (max-width: 767px) {
+  .nav-elements.game-view-tab {
+    display: none;
+  }
+}
+
 /* Site Navigation
 /* ---------------------------------------------------------- */
 

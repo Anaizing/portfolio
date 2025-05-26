@@ -8,6 +8,18 @@ import twitter from "../../content/assets/twitter.png";
 const Layout = props => {
   const { title, children } = props;
   const [toggleNav, setToggleNav] = React.useState(false);
+  const [isDesktop, setIsDesktop] = React.useState(false);
+
+  // todo: only remove this once the gameview has w,a,s,d built into the scren ui
+  React.useEffect(() => {
+    const checkWindowSize = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
+    checkWindowSize(); // Check once on mount
+    window.addEventListener("resize", checkWindowSize);
+    return () => window.removeEventListener("resize", checkWindowSize);
+  }, []);
+
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
@@ -83,19 +95,21 @@ const Layout = props => {
                   Codepens
                 </Link>
               </li> */}
-              <li className="nav-elements" role="menuitem">
-                <Link
-                  to={`/game-view`}
-                  activeClassName="active"
-                  activeStyle={{
-                    color: "#fe78cc",
-                    textDecoration: "none",
-                    opacity: "1"
-                  }}
-                >
-                  Game View
-                </Link>
-              </li>
+              {isDesktop && (
+                <li className="nav-elements game-view-tab" role="menuitem">
+                  <Link
+                    to={`/game-view`}
+                    activeClassName="active"
+                    activeStyle={{
+                      color: "#fe78cc",
+                      textDecoration: "none",
+                      opacity: "1"
+                    }}
+                  >
+                    Game View
+                  </Link>
+                </li>
+              )}
             </ul>
           </nav>
           <div className="site-head-center">
