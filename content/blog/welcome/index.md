@@ -13,6 +13,17 @@ Thank you for taking an interest in my work! Here you will find out a little mor
 <br>
 And now you might be able to find me in a crowd too!
 
-> you can [contact me here](/contact)... who knows maybe we'll collaborate sometime.
+Slide across the projects carousel for a brief demonstration of some of my tech skills, which include...
 
-![my face](https://res.cloudinary.com/soggy-ink-games/image/upload/v1709053477/ian-araya.jpg)
+- [Web development](./soggy-website)
+- Game development
+- XR - VR & AR
+- Building [Visual Effects](./weber)
+- Programing HLSL shaders for Unity and GLSL shaders for WebGL
+- Programing AI agents
+- API building & integration
+- Programing game engine tooling, packages and plugins
+
+<br>
+
+> you can [contact me here](/contact)... who knows maybe we'll collaborate sometime.

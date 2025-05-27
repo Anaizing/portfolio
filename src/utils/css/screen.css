@@ -39,7 +39,16 @@ p {
   override-colors: 0 hotpink, 1 cyan, 2 white;
 }
 
+#under {
+  text-decoration: underline;
+}
+
 .spicy {
+  font-family: "Bungee Spice";
+  font-palette: --colorized;
+}
+
+.stoic {
   font-family: "Bungee Spice";
   font-palette: --colorized;
 }
