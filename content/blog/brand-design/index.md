@@ -4,7 +4,7 @@ date: "2023-01-27"
 thumbnail: ./soggyLogo.png
 description: "SOGGY INK GAMES: you are smart enough"
 background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873091/portfolio/design-ian.png
-tags: design
+tags: design canva photoshop
 ---
 
 Enter the realm of cutting-edge technology and innovation with SOGGY INK GAMES. This brand design project breathes life into futuristic visions, reflecting advancements through sleek and modern design elements.

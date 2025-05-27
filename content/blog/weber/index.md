@@ -4,6 +4,7 @@ date: "2023-01-27"
 thumbnail: ./weber.png
 background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/portfolio/unity-ian.png
 description: This is a unity package displaying a collection of visual effects built with unity's vfx-graph for game development
+tags: unity vfx-graph particle-effects signed-distance-field blender python
 ---
 
 # Unity visual effects packaged library
@@ -16,7 +17,7 @@ This unity packaged reusable visual effects library, developed for Soggy Ink Gam
 
 - Exposed switchable <b>Signed Distance Field</b> texture variables to alternate effects
 
-- Built <b>Blender</b> scripts to generate 3D models from 2D icons, to turn those 3D models into SDF (signed distance field) textures and build animated visual effects in those shapes
+- Built <b>Blender</b> python scripts to generate 3D models from 2D icons, to turn those 3D models into SDF (signed distance field) textures and build animated visual effects in those shapes
 
 The visual effects are all named after famous inventors and scientists =)
 
