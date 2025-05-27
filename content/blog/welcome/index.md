@@ -17,7 +17,7 @@ Slide across the projects carousel for a brief demonstration of some of my tech 
 
 - [Web development](../soggy-website)
 - Game development
-- XR - VR & AR
+- XR - VR & [AR](../eigthwall/)
 - [Level Design](../underwater)
 - Building [Visual Effects](../weber) with Unity's VFX Graph
 - Building and animating assets with Blender's [Geometry Nodes](../lightning)
