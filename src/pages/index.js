@@ -2,7 +2,7 @@ import React /*{ useEffect, useState, useMemo, useRef }*/ from "react";
 import { StaticQuery } from "gatsby";
 import { css } from "aphrodite";
 
-import { TypewriterIntro } from "../components/typewriter";
+import { TypewriterIntro, TypewriterILove } from "../components/typewriter";
 // import { MyModelViewer } from "../components/modelViewer"
 // import { AOSImageCard } from "../components/aosCard";
 
@@ -48,6 +48,18 @@ const BlogIndex = ({ data }, location) => {
               }}
             >
               <TypewriterIntro />
+            </h2>
+            <h2
+              className="stoic"
+              style={{
+                fontSize: "2em",
+                height: "100%",
+                flex: 1,
+                display: "flex",
+                alignItems: "center"
+              }}
+            >
+              <TypewriterILove />
             </h2>
           </div>
         </header>
