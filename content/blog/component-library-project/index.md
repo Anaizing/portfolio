@@ -1,10 +1,10 @@
 ---
-title: component library
+title: reusable ui component library
 date: "2023-01-26"
 thumbnail: ./componentlibrary.png
 background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/portfolio/code-ian.png
 description: A library of React components that incorporates Atomic design principles in composition.
-tags: javascript react
+tags: custom-build-pipelines javascript react  prop-documentation
 ---
 
 ![web app desktop mockups with descriptions of tech used](https://res.cloudinary.com/soggy-ink-games/image/upload/v1675011560/portfolio/webpagemock_jod3fz.gif)
