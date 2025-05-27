@@ -89,7 +89,7 @@ const indexQuery = graphql`
         title
       }
     }
-    glitchme: file(relativePath: { eq: "glitchme.jpg" }) {
+    glitchme: file(relativePath: { eq: "glitchme.png" }) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid

@@ -28,19 +28,6 @@ const AboutPage = ({ data }, location) => {
             <figcaption>Photography by Ian Araya</figcaption>
           </figure>
           <h3 id="dynamic-styles">Ian Yusary Araya Rocha</h3>
-          <p>
-            That up there is my full long-ass name, I probably shouldnt mention
-            that this is the first time, in the 5+ years I've been building
-            software, I've ever MADE the time to build myself a portfolio that
-            shows off my sweet sweet skills. Im patting myself on the back right
-            now because I started building this on saturday, its now monday
-            morning and we're nearly there!
-          </p>
-
-          <p>
-            Oculus and WebGl were kicking my ass for a good chunk of it, but I
-            pushed through till I figured it out.
-          </p>
 
           <Img
             fluid={data.yellowright.childImageSharp.fluid}
@@ -48,18 +35,12 @@ const AboutPage = ({ data }, location) => {
           />
 
           <p>
-            {" "}
-            Just to be clear, I dont condone slogging it out in one go, Im no
-            martyr. But building something that is 100% about me is pretty fun!
-          </p>
-
-          <p>
             Aside from swearing, dancing, and pushing myself extremely hard when
             the clock is running out, I ABSOLUTELY LOVE LEARNING, I LOVE ART, I
             LOVE PSYCHOLOGY, I LOVE SOLVING PROBLEMS, I LOVE BRAINS... yummm,
-            all and all, these qualities make me a pretty awesome creative dev.
-            I may also have ADHD and be on the spectrum, so superpowers are
-            activated.
+            all and all, these qualities make me a pretty awesome creative
+            developer. I may also have ADHD and be on the spectrum, so
+            superpowers are activated.
           </p>
 
           <p>
@@ -80,7 +61,7 @@ const AboutPage = ({ data }, location) => {
 
           <span>
             <ul>
-              <li>I started my own game development company</li>
+              <li>started my own game development company</li>
               <li>taught myself how to code</li>
               <li>got into Berhain once</li>
               <li>taught myself game design</li>
@@ -119,7 +100,7 @@ const indexQuery = graphql`
         title
       }
     }
-    glitchme: file(relativePath: { eq: "glitchme.jpg" }) {
+    glitchme: file(relativePath: { eq: "glitchme.png" }) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
