@@ -3,7 +3,7 @@ title: reusable ui component library
 date: "2023-01-26"
 thumbnail: ./componentlibrary.png
 background: https://res.cloudinary.com/soggy-ink-games/image/upload/v1709873090/portfolio/code-ian.png
-description: A library of React components that incorporates Atomic design principles in composition.
+description: A library of reusable React components that incorporates Atomic design principles in composition, published on npm.
 tags: custom-build-pipelines javascript react  prop-documentation
 ---
 
@@ -11,7 +11,7 @@ tags: custom-build-pipelines javascript react  prop-documentation
 
 ### REACT COMPONENT LIBRARY
 
-A library of React components that incorporates atomic design principles in composition. Built from scratch, complete with docs, testing, automated code highlighting generation on props for each component, with development environment and deployment environment builds.
+A library of React components that incorporates atomic design principles in composition. Built from scratch, complete with custom build pipelines, docs, testing, automated code highlighting generation on props for each component, with development environment and deployment environment builds all published on npm.
 
 Developed using...
 
